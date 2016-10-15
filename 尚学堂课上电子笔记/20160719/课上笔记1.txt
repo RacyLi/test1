@@ -1,0 +1,145 @@
+李毅
+18001128266
+863159469
+
+编程语言
+	1计算机语言(打孔机)
+	2汇编语言
+	3
+		面向过程
+			c
+		面向对象
+			C++
+			java:万事万物皆对象
+	4
+		SQL
+	5
+JAVA
+	1995 - 2016
+	SUN--小型服务器  GREEN    
+	
+	高司令     Oak -->java(爪哇)
+	1.1简陋
+	1.2
+		)
+	
+		j2ee--企业级应用开发
+			网络信息的交互
+		j2me--嵌入式
+	1.3
+	1.4
+	
+	java 5.0
+	java 6.0
+		-----------------------收购     2009年-->oracle
+	
+	java 7.0
+	java 8.0(向下兼容性太差)
+		javase
+		javaee
+		javame
+	
+	一般最新的版本都不会被采用
+	
+优点
+	跨平台
+		JVM--主要是针对java的编译和运行
+	垃圾回收机制
+		C--析构函数(释放内存空间)
+		
+		内存分析--架构师    
+	健壮性	
+		
+学习一些名词
+	JDK
+		JVM--跨平台
+		JRE--运行环境
+
+
+		
+		
+		
+	
+	亲爱的翻译官
+	
+	
+	
+	
+	
+	
+unix
+linux
+	棱镜门
+window
+	
+
+
+思科
+
+
+养肥了再杀	
+	
+	
+	
+	
+	
+10亿$
+C#
+
+
+	
+微软
+IBM
+oracle
+
+	
+	
+	
+			
+
+win+r    cmd
+	D: 切换到d盘
+	cd  pr tab 切换到子文件夹
+	cd .. 上级目录
+	cd / 盘根目录
+	
+	ipconfig 查看当前主机网络配置
+	ping  192.168.1.88 查看和88主机是否联通
+	
+java
+	计算机   右键   属性
+	点击 高级系统设置
+	选中  高级  选项卡
+	单击 环境变量
+	查看 系统变量中的   path
+		D:\Program Files\Java\jdk1.7.0_60\bin;D:\app\Administrator\product\11.2.0\dbhome_1\bin;%JAVA_HOME%\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\
+		
+	
+	首先创建 
+		JAVA_HOME
+		D:\Program Files\Java\jdk1.7.0_60
+		D:\Program Files\Java\jdk1.7.0_60\bin
+	
+		%JAVA_HOME%\bin
+	开始修改path
+		%JAVA_HOME%\bin;D:\app\Administrator\product\11.2.0\dbhome_1\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\
+	
+	
+	java -version
+	
+	在D盘创建一个文件夹叫做  Workspace
+	
+	创建后缀以.java结束的文件
+	
+	
+	public class HelloWorld{
+		public static void main(String[] args){
+			System.out.println("Hello world");
+		}
+	}
+	
+	javac HelloWorld.java
+	java HelloWorld
+	
+	classpath
+		告诉java.exe去哪个文件夹

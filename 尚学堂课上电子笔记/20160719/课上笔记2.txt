@@ -1,0 +1,47 @@
+/*
+	标示符
+		主要是为了给 类  方法 变量起名字
+		
+		规则
+			首字母必须是字母下划线和$
+			其余部分可以是字母 数字 下划线 $
+			java大小写敏感,长度适中就好
+			见名知意，建议使用英文单词
+			不要使用关键字，现在刚开始接触java，不需要全部背过
+				当j2se学完之后，应该知道每个关键字的意思和作用
+			
+
+*/
+public class Var{
+	
+	public static void main(String[] args){
+		//错误的标识符
+		//int 1a = 10;
+		//int #a = 10;
+		//int a# = 10;
+		int _a = 10;
+		int $a = 10;
+		int a1 = 10;
+		int a100000 = 10;
+		int aa = 10;
+		int aqhkjhskashlkjhalkjfhslkjdfhalkdshfkjahdflkhsadlkfhsaldfka = 10;
+		
+		int age = 20;
+		int width = 55;
+		int height = 180;
+		String name ="zhangsan";
+		String mingzi ="lisi";
+		//入党时间
+		String rdsj = "bbb";
+		
+		int hello = 10;
+		
+		System.out.println("北京尚学堂");
+		
+		//标识符虽然汉字可以，但是不要去使用
+		int ￥a=10;
+		int 你好=10;
+		
+	}
+	
+}
